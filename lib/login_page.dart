@@ -20,14 +20,14 @@ class _LoginPageState extends State<LoginPage> {
       ),
       body: SingleChildScrollView(
         child: Column(
-          children: [
+          children: [ 
             Padding(
               padding: const EdgeInsets.all(10),
               child: Center(
                 child: Container(
                   height: 150,
                   width: 190,
-                  padding: EdgeInsets.only(top: 40),
+                  padding: EdgeInsets.only(top: 40, bottom: 30),
                   child: Image.asset('assets/images/logo_flutter.png'),
                 ),
               ),

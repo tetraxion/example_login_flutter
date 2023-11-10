@@ -58,7 +58,7 @@ class FavoritePageState extends State<FavoritePage> {
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
-          child: Column(
+          child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               Row(
